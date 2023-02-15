@@ -1,0 +1,90 @@
+body{
+    background-color: #F3EAE3;
+    margin: 0;
+    
+}
+
+.container{
+    background-color: white;   
+    border: groove 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 500px;
+    margin: 125px auto;
+    display: flex;
+}
+
+img{
+    width: 50%;
+    border: groove 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.descricao{
+    margin: 20px;
+}
+
+.mini-titulo{
+    font-weight: normal;
+    color: gray;
+    font-size: 14px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo{
+    font-family: 'Fraunces', serif;
+    color: #000133;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.descricao p{
+    font-size: 14px;
+    margin: 15px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+.precos {
+    width: 100px;
+    display: flex;
+    font-family: 'Fraunces', serif;
+}
+
+.preco-promocao{
+    color: rgb(0, 121, 99);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.precos h2{
+    color: gray;
+    margin: 30px 10px;
+    font-size: 15px;
+    text-decoration: line-through
+}
+a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.descricao img{
+    width: 15px;
+    color: white;
+}
+
+.compra{
+    background-color: rgb(0, 73, 60);
+    border: groove 0;
+    border-radius: 10px;
+    width: 160px;
+    display: inline;
+    padding: 10px;
+    margin: 10px auto;
+}
